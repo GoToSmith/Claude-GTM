@@ -1,0 +1,19 @@
+# Dane klientów
+clients/*/data/
+clients/*/raw/
+*.csv
+*.xlsx
+
+# Sekrety
+.env
+.env.local
+*.pem
+*_key.json
+secrets/
+
+# System
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+node_modules/
